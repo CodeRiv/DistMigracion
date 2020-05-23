@@ -1,5 +1,5 @@
-import dbConnect from './utils/dbConnect';
-import People from './models/People';
+import dbConnect from '../../utils/dbConnect';
+import People from '../../models/People';
 
 dbConnect();
 

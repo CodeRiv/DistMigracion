@@ -2,8 +2,6 @@ import 'module-alias/register';
 import dbConnect from '@utils/dbConnect';
 import People from '@models/People';
 
-
-
 dbConnect();
 
 export default async (req, res) => {

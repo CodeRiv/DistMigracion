@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "baseUrl": "src",
+    "baseUrl": "src/pages",
     "paths": {
       "@utils/*": ["utils/*"],
       "@models/*": ["models/*"]
@@ -29,6 +29,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "src/models/People.js", "src/utils/dbConnect.js"
+    "**/*.tsx", "src/pages/models/People.js", "src/pages/utils/dbConnect.js"
   ]
 }

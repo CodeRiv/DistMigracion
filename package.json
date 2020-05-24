@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/yup": "^0.29.0",
     "babel-plugin-module-resolver": "^4.0.0",
+    "escape-json-node": "^2.0.0",
     "module-alias": "^2.2.2",
     "mongodb": "^3.5.7",
     "mongoose": "^5.9.15",

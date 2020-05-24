@@ -1,5 +1,6 @@
-import dbConnect from '../../../utils/dbconnect';
-import People from '../../../models/People'
+import 'module-alias/register';
+import dbConnect from '@utils/dbConnect';
+import People from '@models/People';
 
 dbConnect();
 export default async (req, res) => {
@@ -20,7 +21,7 @@ export default async (req, res) => {
             try {
                 const people = await People.create(req.body);
 
-                res.status(201).json({ success: true, data: note})
+                res.status(201).json({ success: true, data: people})
             }  catch (error) {
                 res.status(400).json ({success: false, error: error});
             }  

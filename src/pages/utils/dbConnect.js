@@ -1,6 +1,4 @@
 import mongoose from 'mongoose';
-require('dotenv').config({path: './next-config.js'})
-
 const connection = {};
 
 async function dbConnect() {

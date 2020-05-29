@@ -52,7 +52,7 @@ export default async (req, res) => {
 
                 }
             } catch (error) {
-                res.status(400).json({ success: false, data: error});
+                res.status(200).json({ DPI: DPI, status: "Not Valid"});
             }
             break;
     }

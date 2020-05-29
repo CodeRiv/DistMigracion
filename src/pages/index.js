@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Consulta información sobre el estado actual de los pasaportes y estatus migratorio de un usuario.
+          Consulta información sobre el estado actual de los pasaporte, estatus migratorio de un usuario y validez.
         </p>
         
         <p className="description">
@@ -25,18 +25,22 @@ export default function Home() {
         </p>
 
         <p className="description">
-          Usage: <code>https://distmigra.herokuapp.com/api/people/(DPI)</code>
+          Usage: <code>https://distmigracion.cleverapps.io/api/people/(DPI)</code>
         </p>
+        <p className="description">
+          Usage: <code>https://distmigracion.cleverapps.io/api/valid/(DPI)</code>
+        </p>
+
 
         <div className="grid">
           <a className="card">
-            <h3>Ejemplo</h3>
-            <p><code>https://distmigra.herokuapp.com/api/people/2993772020101</code></p>
+            <h3>Ejemplo Información Pasaporte</h3>
+            <p><code>https://distmigracion.cleverapps.io/api/people/2993772020101</code></p>
           </a>
 
           <a className="card">
-            <h3>Response</h3>
-            <p><code>TBA</code></p>
+            <h3>Ejemplo Información validez</h3>
+            <p><code>https://distmigracion.cleverapps.io/api/valid/2993772020101</code></p>
           </a>
         </div>
       </main>

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm next build && next start -p $PORT && npm run build",
+    "start": "next build && next start -p $PORT && next build",
     "heroku-postbuild": "npm run build && npm run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

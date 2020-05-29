@@ -48,6 +48,7 @@ export default async (req, res) => {
 
                 else
                 {
+                    
                     res.status(200).json({DPI: DPI, status: "expired"})
 
                 }
